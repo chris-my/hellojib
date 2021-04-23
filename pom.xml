@@ -51,7 +51,7 @@
                     </from>
                     <to>
                         <!--镜像名称和tag，使用了mvn内置变量${project.version}，表示当前工程的version-->
-                        <image>registry-vpc.cn-shenzhen.aliyuncs.com/olight-devops/devops:$(echo $BUILD_NUMBER} | base64 -d)</image>
+                        <image>registry-vpc.cn-shenzhen.aliyuncs.com/olight-devops/devops:${PIPELINE_ID}</image>
                     </to>
                     <!--容器相关的属性-->
                     <container>
