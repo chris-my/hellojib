@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: hellojib-test
+spec:
+  selector:
+    matchLabels:
+      app: hellojib-test
+  template:
+    metadata:
+      labels:
+        app: hellojba-test
+    spec:
+      containers:
+      - name: hellojib-java
+        image: ${IMAGE}
+        imagePullPolicy: Always
