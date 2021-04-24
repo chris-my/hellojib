@@ -1,18 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
+  name: test-java
   labels:
-    app: hellojib-test
+    app: test-java
 spec:
   selector:
     matchLabels:
-      app: hellojib-test
+      app: test-java
   template:
     metadata:
       labels:
-        app: hellojba-test
+        app: test-java
     spec:
       containers:
-      - name: hellojib-java
+      - name: test-java
         image: registry.cn-shenzhen.aliyuncs.com/olight-devops/hellojib:${BUILD_NUMBER}
         imagePullPolicy: Always
