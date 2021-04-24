@@ -15,5 +15,5 @@ spec:
     spec:
       containers:
       - name: test-java
-        image: registry.cn-shenzhen.aliyuncs.com/olight-devops/hellojib:${BUILD_NUMBER}
+        image: registry.cn-shenzhen.aliyuncs.com/olight-devops/hellojib:${TAG}
         imagePullPolicy: Always
