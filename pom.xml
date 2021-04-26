@@ -50,7 +50,7 @@
                         <image>openjdk:8-jdk</image>
                     </from>
                     <to>
-                        <!--镜像名称和tag，使用了mvn内置变量${project.version}，表示当前工程的version-->
+                        <!--镜像名称和tag，使用了mvn内置变量${project.version}，dddd表示当前工程的version-->
                         <image>registry.cn-shenzhen.aliyuncs.com/olight-devops/devops:${BUILD_NUMBER}</image>
                     </to>
                     <!--容器相关的属性-->
